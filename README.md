@@ -26,7 +26,7 @@ devtools::install_github("datakilimba/agrimarketR")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-#library(agrimarketR)
+# library(agrimarketR)
 ## basic example code
 ```
 
