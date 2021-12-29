@@ -20,12 +20,15 @@
 ## 
 golem::fill_desc(
   pkg_name = "agrimarketR", # The Name of the package containing the App 
-  pkg_title = "PKG_TITLE", # The Title of the package containing the App 
-  pkg_description = "PKG_DESC.", # The Description of the package containing the App 
+  pkg_title = "View agricultural commodity prices in local markets", # The Title of the package containing the App 
+  pkg_description = "Smallholder farmers' knowledge of market prices for agricultural 
+  commodities is crucial in reducing information assymetries which keep smallholders
+  profits low. agrimarketR contains functionality allowing users to view agricultural 
+  commodity prices.", # The Description of the package containing the App 
   author_first_name = "Tumaini", # Your First Name
   author_last_name = "Kilimba", # Your Last Name
   author_email = "tnkilimba@gmail.com", # Your Email
-  repo_url = NULL # The URL of the GitHub Repo (optional) 
+  repo_url = "https://github.com/datakilimba/agrimarketR.git" # The URL of the GitHub Repo (optional) 
 )     
 
 ## Set {golem} options ----
