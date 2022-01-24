@@ -7,6 +7,8 @@
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![Codecov test
+coverage](https://codecov.io/gh/datakilimba/agrimarketR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/datakilimba/agrimarketR?branch=master)
 <!-- badges: end -->
 
 The goal of agrimarketR is to …
@@ -26,7 +28,7 @@ devtools::install_github("datakilimba/agrimarketR")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(agrimarketR)
+#library(agrimarketR)
 ## basic example code
 ```
 
