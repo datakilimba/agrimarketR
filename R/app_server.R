@@ -6,5 +6,5 @@
 #' @noRd
 app_server <- function( input, output, session ) {
   # Your application server logic 
-  
+  mod_market_server("market")
 }

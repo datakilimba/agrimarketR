@@ -9,8 +9,21 @@ app_ui <- function(request) {
     # Leave this function for adding external resources
     golem_add_external_resources(),
     # Your application UI logic 
-    fluidPage(
-      h1("agrimarketR")
+    
+    # Define this page as a dashboard page to signal we're using the
+    # dashboard page format
+    shinydashboard::dashboardPage(
+      
+      header = shinydashboard::dashboardHeader(
+        title = "Market Information"
+        #enable_rightsidebar = FALSE
+      ),
+      sidebar = shinydashboard::dashboardSidebar(
+        mod_market_input("market")
+      ),
+      body = shinydashboard::dashboardBody(
+        mod_market_ui("market")
+      )
     )
   )
 }
